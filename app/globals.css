@@ -27,6 +27,8 @@ body {
   background: var(--white);
   color: var(--black);
   overflow-x: hidden;
+  cursor: default;
+  min-height: 100dvh;
 }
 
 /* ── section-label y section-title (compartidas entre secciones) ── */

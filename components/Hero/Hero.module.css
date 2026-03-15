@@ -1,5 +1,5 @@
 .hero {
-  min-height: 100vh;
+  min-height: 100dvh;
   background: var(--primary);
   display: flex;
   align-items: center;
@@ -94,7 +94,7 @@
   color: rgba(255, 255, 255, 0.85);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   opacity: 0;
   animation: fadeUp 0.7s 0.2s forwards;
 }

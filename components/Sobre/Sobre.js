@@ -3,23 +3,33 @@ import styles from "./Sobre.module.css";
 const valores = [
   {
     icon: "✦",
+    title: "Calidad y compromiso",
+    desc: "Cada entrega es una declaración de estándares altos.",
+  },
+  {
+    icon: "◎",
     title: "Creatividad con propósito",
     desc: "Cada idea tiene un objetivo claro detrás.",
   },
   {
-    icon: "◈",
-    title: "Detalle y calidad",
+    icon: "⊕",
+    title: "Detalle y claridad",
     desc: "Cuidamos cada pixel, cada palabra, cada decisión.",
   },
   {
-    icon: "◎",
-    title: "Involucramiento real",
-    desc: "Nos metemos de lleno en el negocio del cliente.",
+    icon: "◈",
+    title: "Cercanía real",
+    desc: "Nos involucramos como parte del equipo, no solo como proveedores.",
   },
   {
     icon: "⬡",
     title: "Estrategia + Ejecución",
     desc: "Pensamos y hacemos. Sin dejar nada a medias.",
+  },
+  {
+    icon: "◐",
+    title: "Adaptabilidad",
+    desc: "Cada cliente es único, y nuestra forma de trabajar se adapta a su realidad.",
   },
 ];
 
@@ -37,11 +47,9 @@ export default function Sobre() {
         {/* Columna texto */}
         <div className={styles.text}>
           <div>
-            <p className="section-label reveal">Quiénes somos</p>
+            <p className="section-label reveal">Sobre Corely</p>
             <h2 className="section-title reveal reveal-delay-1">
-              Una agencia que
-              <br />
-              se involucra de verdad
+              Creatividad <br/>con propósito
             </h2>
             <p className="reveal reveal-delay-2">
               Corely nació con la convicción de que el marketing y el diseño
@@ -59,9 +67,7 @@ export default function Sobre() {
             <div className={`${styles.visionBlock} reveal reveal-delay-3`}>
               <h3>Nuestra visión</h3>
               <p>
-                Ser el equipo creativo que toda marca desea tener: comprometido,
-                talentoso y genuinamente interesado en el éxito del negocio del
-                cliente.
+                Ser la agencia de referencia para marcas que quieren crecer de forma auténtica: una agencia conocida por su calidad, creatividad y relaciones reales con sus clientes, ayudando a construir marcas sólidas y reconocidas en sus mercados.
               </p>
             </div>
           </div>
