@@ -88,6 +88,18 @@
   .section {
     padding: 5rem 2rem;
   }
+
+  .grid {
+    margin-top: 2rem;
+  }
+
+  .paso {
+    padding: 1.5rem;
+  }
+
+  .num {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 768px) {

@@ -74,8 +74,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.25rem;
+  /* margin-bottom: 1.25rem; */
   transition: background 0.3s, transform 0.3s;
+  min-width: 50px;
 }
 
 .card:hover .icon {
@@ -92,7 +93,7 @@
   font-weight: 700;
   font-size: 1.15rem;
   letter-spacing: -0.02em;
-  margin-bottom: 0.6rem;
+  /* margin-bottom: 0.6rem; */
   color: var(--black);
 }
 
@@ -102,6 +103,15 @@
   line-height: 1.65;
 }
 
+.iconTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
 @media (max-width: 1024px) {
   .section {
     padding: 5rem 2rem;
@@ -109,6 +119,19 @@
 
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header {
+  margin-bottom: 2rem;
+  gap: 0rem;
+  }
+
+  .intro {
+  margin-bottom: 0rem;
+  }
+
+  .card {
+  padding: 1.5rem;
   }
 }
 

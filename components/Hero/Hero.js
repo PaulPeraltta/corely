@@ -13,7 +13,7 @@ export default function Hero() {
       <div className={styles.content}>
         <div className={styles.tag}>
           <div className={styles.tagDot} />
-          Agencia Creativa Estratégica
+          Agencia Creativa
         </div>
         <h1 className={styles.title}>
           core
