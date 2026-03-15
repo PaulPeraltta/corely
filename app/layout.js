@@ -2,7 +2,7 @@ import './globals.css';
 import { Lexend_Deca } from 'next/font/google'
 
 export const metadata = {
-  title: 'Corely — Agencia Creativa',
+  title: 'Corely',
   description: 'Agencia creativa especializada en branding, redes sociales y contenido estratégico.',
 };
 

@@ -10,12 +10,6 @@
   align-items: start;
 }
 
-/* .text {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
-} */
-
 /* Texto */
 .text p {
   font-size: 1.05rem;
@@ -60,8 +54,8 @@
   list-style: none;
   display: grid;
   gap: 1rem;
-  padding-top: 2.5rem;
-  margin-top: 2rem;
+  /* padding-top: 2.5rem;
+  margin-top: 1.5rem; */
 }
 
 .valoresList li {
@@ -111,7 +105,7 @@
 /* Visual / Card */
 .visual {
   position: sticky;
-  top: 6rem;
+  top: 8rem;
 }
 
 .card {
